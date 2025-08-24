@@ -1,3 +1,5 @@
+#The manual configs generator program for the fastreid models from the fastreid model zoo.
+
 import os
 import sys
 import torch
@@ -14,7 +16,8 @@ from fastreid.utils.checkpoint import Checkpointer
 
 
 class FastReIDConfigGenerator:
-    
+
+    #The list of model types in the fastreid model zoo.
     DATASET_CONFIGS = {
         "Market1501": {
             "num_classes": 751,

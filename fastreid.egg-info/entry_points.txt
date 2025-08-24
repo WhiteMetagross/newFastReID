@@ -1,0 +1,4 @@
+[console_scripts]
+fastreid-demo = fastreid.tools.demo:cli_main
+fastreid-test = fastreid.tools.test:cli_main
+fastreid-train = fastreid.tools.train:cli_main

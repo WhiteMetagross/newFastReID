@@ -1,0 +1,26 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Include configuration files within package
+recursive-include fastreid/configs *.yml *.yaml
+
+# Exclude development and build files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .DS_Store
+global-exclude *.so
+global-exclude *.pyd
+prune build
+prune dist
+prune *.egg-info
+prune .pytest_cache
+prune .mypy_cache
+
+# Exclude development files
+exclude *.md
+exclude GETTING_STARTED.md
+exclude INSTALL.md
+exclude MODEL_ZOO.md

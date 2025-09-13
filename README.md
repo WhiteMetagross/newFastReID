@@ -82,6 +82,10 @@ As `newFastReID` is not yet available on the Python Package Index (PyPI), it mus
 
 This library is primarily operated through YAML configuration files and a set of intuitive command line tools. The following guide details the end-to-end workflow from data preparation to inference.
 
+Some usuage examples:
+[Vehicles Tracking from an aerial drone view, with newFastReID](https://github.com/WhiteMetagross/ProjectIAV/tree/main/VehiclePathBoTSORTTrackerV2)
+[Vehicles Tracking with Instance Segmentations, from an aerial drone view, with newFastReID]
+
 ### Step 1: Dataset Preparation
 
 1.  Download the desired ReID datasets (e.g., Market-1501, DukeMTMC-reID, VeRiWild).
